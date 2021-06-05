@@ -14,6 +14,11 @@ class Product(models.Model):
     description = models.TextField(help_text="Enter Product Description")
     unit_cost = models.FloatField(help_text="Enter Product Unit Cost")
     quantity_in_stock = models.FloatField(help_text="Enter Product Quantity")
+    creator = models.ForeignKey(to=User,
+                                max_length=20,
+                                help_text="Enter Creator Name",
+                                on_delete=models.SET_NULL,
+                                null=True)
 
     def __str__(self):
         return self.name

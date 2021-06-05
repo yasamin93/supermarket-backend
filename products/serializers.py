@@ -10,5 +10,6 @@ class ProductSerializer(serializers.ModelSerializer):
                   'category',
                   'description',
                   'unit_cost',
-                  'quantity_in_stock')
+                  'quantity_in_stock',
+                  'creator')
         model = Product

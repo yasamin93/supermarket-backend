@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 * 2021-06-05: project level permissions
+* 2021-06-05: creator to product serializer, creator to product model, and custom permissions
 
 ### Removed
 * 2021-06-05: view level permissions
