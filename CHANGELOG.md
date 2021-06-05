@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added 
 * 2021-06-05: initial commit
-* 2021-06-05: permission only granted to auther of the product or its readonly
+* 2021-06-05: permission only granted to creator of product of the product or its readonly
+* 2021-06-05: initial description to readme
 
 ### Changed
 * 2021-06-05: project level permissions
