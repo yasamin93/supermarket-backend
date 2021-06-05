@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-05: initial commit
 
 ### Changed
-* 2021-06-05: project level permission changed
+* 2021-06-05: project level permissions
 
 ### Removed
 ### Fixed
