@@ -1,9 +1,8 @@
-from django.urls import path
-from .views import UserList, UserDetail, ProductList, ProductDetail
+from .views import UserViewSet, ProductViewSet
+from rest_framework.routers import SimpleRouter
 
-urlpatterns = [
-    path('users/', UserList.as_view()),
-    path('users/<int:pk>/', UserDetail.as_view()),
-    path('<int:pk>/', ProductDetail.as_view()),
-    path('', ProductList.as_view()),
-]
+
+router = SimpleRouter()
+router.register('users', UserViewSet, basename='users')
+router.register('', ProductViewSet, basename='products')
+urlpatterns = router.urls
