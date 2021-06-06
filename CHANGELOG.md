@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-06: user authentication with dj_rest_auth
 * 2021-06-06: user register with allauth
 * 2021-06-06: registration url in main project
+* 2021-06-06: user serializer with url
 
 ### Changed
 * 2021-06-05: project level permissions

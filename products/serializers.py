@@ -17,7 +17,11 @@ class ProductSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
+    url = serializers.SerializerMethodField()
 
     class Meta:
         model = get_user_model()
-        fields = ('id', 'username',)
+        fields = ('id', 'username', 'url')
+
+    def get_url(self, obj):
+        return f'http://127.0.0.1:8000/api/v1/users/{obj.id}'
