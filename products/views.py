@@ -1,15 +1,16 @@
-from rest_framework import generics, permissions
+from django.contrib.auth import get_user_model
+from rest_framework import viewsets
 from .models import Product
-from .serializers import ProductSerializer
+from .serializers import ProductSerializer, UserSerializer
 from .permissions import IsAuthorOrReadOnly
 
 
-class ProductList(generics.ListCreateAPIView):
-    queryset = Product.objects.all()
-    serializer_class = ProductSerializer
-
-
-class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
+class ProductViewSet(viewsets.ModelViewSet):
     permission_classes = (IsAuthorOrReadOnly,)
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = get_user_model().objects.all()
+    serializer_class = UserSerializer

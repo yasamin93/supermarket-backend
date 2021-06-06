@@ -13,10 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-06: session and token authentication
 * 2021-06-06: user authentication with dj_rest_auth
 * 2021-06-06: user register with allauth
+* 2021-06-06: registration url in main project
 
 ### Changed
 * 2021-06-05: project level permissions
 * 2021-06-05: creator to product serializer, creator to product model, and custom permissions
+* 2021-06-06: generic to viewset
 
 ### Removed
 * 2021-06-05: view level permissions
