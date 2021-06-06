@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-05: initial commit
 * 2021-06-05: permission only granted to creator of product of the product or its readonly
 * 2021-06-05: initial description to readme
+* 2021-06-06: session and token authentication.
 
 ### Changed
 * 2021-06-05: project level permissions
