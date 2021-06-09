@@ -15,11 +15,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-06: user register with allauth
 * 2021-06-06: registration url in main project
 * 2021-06-06: user serializer with url
+* 2021-06-10: project schema and swagger
 
 ### Changed
 * 2021-06-05: project level permissions
 * 2021-06-05: creator to product serializer, creator to product model, and custom permissions
 * 2021-06-06: generic to viewset
+* 2021-06-06: normal url to SimpleRouter
 
 ### Removed
 * 2021-06-05: view level permissions
