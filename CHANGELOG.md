@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 2021-06-06: registration url in main project
 * 2021-06-06: user serializer with url
 * 2021-06-10: project schema and swagger
+* 2021-06-14: backend docker 
 
 ### Changed
 * 2021-06-05: project level permissions
